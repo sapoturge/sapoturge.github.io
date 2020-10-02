@@ -1,5 +1,6 @@
 ---
 title: Sapoturge
+layout: default
 ---
 
 Sapoturge
