@@ -29,7 +29,7 @@ url: "https://sapoturge.github.io" # the base hostname & protocol for your site,
 github_username:  sapoturge
 
 # Build settings
-remore_theme: sapoturge/modernist
+theme: jekyll-theme-sapoturge
 plugins:
   - jekyll-feed
 
