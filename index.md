@@ -1,6 +1,5 @@
 ---
 title: Sapoturge
-layout: base
 ---
 
 Sapoturge
