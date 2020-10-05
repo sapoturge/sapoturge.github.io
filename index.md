@@ -1,6 +1,10 @@
 ---
 title: Sapoturge
 layout: default
+previous: /froggum
+previous-text: Froggum
+next: /froggum
+next-text: What's This?
 ---
 
 Sapoturge

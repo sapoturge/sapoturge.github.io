@@ -36,8 +36,23 @@
       </header>
       <section>
 
-      {{ content }}
+        {{ content }}
 
+        {% if next or previous %}
+        <header class="navbar">
+          {% if previous %}
+          <ul class="previous">
+            <li><a href="{{ previous }}"><strong>{{ previous-text }}</strong></a></li>
+          </ul>
+          {% endif %}
+          {% if next %}
+          <ul class="next">
+            <li><a href="{{ next }}"><strong>{{ next-text }}</strong></a></li>
+          </ul>
+          {% endif %}
+          <div class="spacer"></div>
+        </header>
+        {% endif %}
       </section>
     </div>
     <footer>
