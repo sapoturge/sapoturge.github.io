@@ -38,16 +38,16 @@
 
         {{ content }}
 
-        {% if next or previous %}
+        {% if page.next or page.previous %}
         <header class="navbar">
-          {% if previous %}
+          {% if page.previous %}
           <ul class="previous">
-            <li><a href="{{ previous }}"><strong>{{ previous-text }}</strong></a></li>
+            <li><a href="{{ page.previous }}"><strong>{{ page.previous-text }}</strong></a></li>
           </ul>
           {% endif %}
-          {% if next %}
+          {% if page.next %}
           <ul class="next">
-            <li><a href="{{ next }}"><strong>{{ next-text }}</strong></a></li>
+            <li><a href="{{ page.next }}"><strong>{{ page.next-text }}</strong></a></li>
           </ul>
           {% endif %}
           <div class="spacer"></div>
