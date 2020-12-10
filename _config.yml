@@ -50,3 +50,10 @@ navbar: navbar.md
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+background-color: "#BED043"
+title-color: "#460"
+bold-color: "#460"
+list-color: "#895"
+list-border-color: "#342"
+list-border-color-light: "#BED043"
