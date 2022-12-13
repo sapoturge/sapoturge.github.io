@@ -94,7 +94,7 @@ components that would have no effect (a scaling of 1, translation of 0,
 rotation of 0, or skew of 0) are not written out when saving. If all
 components have no effect, no transformation is output at all.
 
-Only Skews along the X axis will be used by **Froggum**.
+Only skews along the X axis will be used by **Froggum**.
 
 When drawing elements, the element's transformation will be applied before
 drawing, then restored afterward so it does not interfere with other
