@@ -22,7 +22,7 @@ title: Sapoturge
 email: john.william.hiatt@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sapoturge.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: assets/images/bowtie.svg
+icon: /assets/images/bowtie.svg
 github_username:  sapoturge
 
 # Build settings
